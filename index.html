@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujata & Atul Wedding</title>
+    
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            min-height: 100vh;
+        }
+
+        /* Custom gradient background */
+        .invitation-bg {
+            background: linear-gradient(180deg, #FDE68A 0%, #D9F99D 100%);
+        }
+
+        /* Card container styles */
+        .card {
+            width: 90%;
+            max-width: 400px;
+            min-height: 80vh;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Text and element spacing */
+        .my-2 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .mt-8 { margin-top: 2rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .space-y-4 > * + * { margin-top: 1rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .italic { font-style: italic; }
+        .border-t { border-top-width: 1px; }
+        .border-b { border-bottom-width: 1px; }
+
+        /* Font sizes and weights */
+        .text-3xl { font-size: 1.875rem; }
+        .text-lg { font-size: 1.125rem; }
+        .text-xl { font-size: 1.25rem; }
+        .text-base { font-size: 1rem; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-gray-800 { color: #1f2937; }
+        .text-gray-700 { color: #374151; }
+        .font-semibold { font-weight: 600; }
+        .font-bold { font-weight: 700; }
+        .tracking-wide { letter-spacing: 0.025em; }
+
+        /* Media queries for responsiveness */
+        @media (min-width: 768px) {
+            .p-8 { padding: 2rem; }
+            .text-4xl { font-size: 2.25rem; }
+            .text-xl { font-size: 1.25rem; }
+            .text-2xl { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Invitation Card Container -->
+    <div class="card invitation-bg">
+        <!-- Top section with names -->
+        <div class="mt-8 mb-6">
+            <h1 class="text-3xl md:text-4xl text-gray-800 tracking-wide">
+                Sujata Pradhan
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 my-2">
+                Weds
+            </p>
+            <h2 class="text-3xl md:text-4xl text-gray-800 tracking-wide">
+                Atul Kashyap
+            </h2>
+        </div>
+
+        <!-- Decorative placeholder removed -->
+        <div class="my-6">
+            <!-- No decorative elements here, as per your instruction -->
+        </div>
+
+        <!-- Blessing and details sections -->
+        <div class="text-gray-700">
+            <p class="text-base md:text-lg italic px-4">
+                We invite you and your family's gracious presence and blessing
+            </p>
+            
+            <div class="mt-8 space-y-4">
+                <!-- Bride Details -->
+                <div class="border-t border-b border-gray-400 py-4">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-2 text-gray-800">Bride Detail</h3>
+                    <p>D/O Smt. Sujyoti Kumar Jena & Shri. Jyoti Kumar Jena</p>
+                    <p>Kalinga, J.R.G.R.N.T, Jagatsinghpur, Odisha</p>
+                </div>
+                
+                <!-- Groom Details -->
+                <div class="border-t border-b border-gray-400 py-4">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-2 text-gray-800">Groom Detail</h3>
+                    <p>S/O Smt. Indu Kashyap & Shri. Rambabu Ji Kashyap</p>
+                    <p>Kalwar, Bagicha, Raebareli, U.P.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html
